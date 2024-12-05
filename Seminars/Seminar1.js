@@ -1,4 +1,3 @@
-// Написание HTTP-сервера
 const http = require('http');
 
 let clickCount = 0;
@@ -6,7 +5,7 @@ let clickCount = 0;
 const server = http.createServer((req, res) => {
 
 clickCount++;
-  // Проверяем путь запроса
+
   if (req.url === '/') {
     res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });    
     res.end(`<p>Количество кликов: ${clickCount}</p>
@@ -21,7 +20,6 @@ clickCount++;
   }
 });
 
-// Указываем порт для сервера
 const port = 3000;
 server.listen(port, () => {
   console.log(`Сервер запущен на http://localhost:${port}`);
