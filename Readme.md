@@ -4,4 +4,4 @@
 
 ## Реализация Д/З 1:
 
-### Файл с решением - <[Seminars](https://github.com/Ikul23/NODE.js/tree/main/Seminars)>
+### Файл с решением - <[Seminar1](https://github.com/Ikul23/NODE.js/tree/main/Seminars)>
